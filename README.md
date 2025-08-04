@@ -17,33 +17,66 @@ Este projeto foi desenvolvido para demonstrar competências em:
 
 ## 📋 Perguntas de Negócio Respondidas
 
-O dashboard foi construído para responder às seguintes questões:
+O dashboard foi construído para responder às seguintes questões estratégicas:
 
 ### 1️⃣ **Análise de Modos de Envio**
 > *"Qual foi o total de valor venda considerando cada modo de envio dos pedidos?"*
 
-**Gráfico Solicitado:** `Waterfall Chart (Cascata)`
+**Gráfico Escolhido:** `Waterfall Chart (Cascata)`
+- **Justificativa:** Visualiza a contribuição incremental de cada modo de envio
+- **Insight:** Classe Padrão representa ~60% do volume total de vendas
 
 ### 2️⃣ **Custos Logísticos por Mercado**  
 > *"Quais mercados tiveram o maior custo médio de envio dos produtos vendidos?"*
 
-**Gráfico Solicitado:** `Treemap`
+**Gráfico Escolhido:** `Treemap`
+- **Justificativa:** Proporcionalidade visual clara entre mercados
+- **Insight:** Canadá (17,78) apresenta melhor eficiência vs APAC (29,14)
 
 ### 3️⃣ **KPI de Performance de Vendas**
-> *"A empresa tem como objetivo (meta) manter uma média de 350 para o valor de venda todos os meses. Mostre um indicador (KPI) com o valor médio de venda. A empresa ficou abaixo ou acima da meta no mês de Abril/2014?"*
+> *"Meta de manter média de 350 para valor de venda. Como está a performance em Abril/2014?"*
 
-**Gráfico Solicitado:** `Gauge Chart (Velocímetro)`
-**Meta Definida:** 350
+**Gráfico Escolhido:** `Gauge Chart (Velocímetro)`
+- **Justificativa:** Visualização executiva imediata de performance vs meta
+- **Resultado:** 246,49 (70,4% da meta) - **Performance sólida e recuperável**
 
 ### 4️⃣ **Lucratividade por Categoria**
-> *"Considere que o lucro é equivalente a: valor venda - custo envio. Qual categoria de produto apresentou maior lucro médio?"*
+> *"Considerando lucro = valor venda - custo envio, qual categoria apresentou maior lucro médio?"*
 
-**Análise:** Comparação entre Tecnologia, Móveis e Material de Escritório
+**Gráfico Escolhido:** `Donut Chart`
+- **Justificativa:** Foco na categoria dominante sem ocupar muito espaço
+- **Insight:** **Tecnologia domina com 46,55% do lucro** apesar de menor volume
 
 ### 5️⃣ **Evolução Temporal da Margem**
-> *"Qual foi o comportamento da margem de lucro ao longo do tempo? Considere a margem de lucro como o lucro dividido pelo valor venda."*
+> *"Qual foi o comportamento da margem de lucro ao longo do tempo?"*
 
-**Gráfico:** Série temporal mostrando evolução da margem
+**Gráfico Escolhido:** `Line Chart (Série Temporal)`
+- **Justificativa:** Padrão gold para análise de tendências temporais
+- **Insight:** Recuperação consistente de 2013-2014, atingindo ~200M
+
+---
+
+## 📈 Principais Insights Descobertos
+
+### 🎯 **Performance Geral**
+- **KPI atual: 246,49** (70,4% da meta de 350)
+- **Gap de apenas 29,6%** - meta facilmente atingível com ajustes táticos
+- **Tendência de crescimento** consistente desde 2013
+
+### 💡 **Oportunidades Estratégicas**
+
+| Área | Insight | Ação Recomendada |
+|------|---------|------------------|
+| **📱 Categoria** | Tecnologia: 46,55% do lucro com menor volume | Expandir portfólio e marketing |
+| **🚚 Logística** | Canadá 40% mais eficiente que APAC | Replicar modelo canadense |
+| **📦 Envios** | Classe Padrão domina volume | Migrar clientes para modalidades premium |
+| **📊 Mix** | Material Escritório: alto volume, baixa margem | Rebalancear mix de produtos |
+
+### 🔄 **Evolução Temporal**
+- **2011-2012:** Alta volatilidade (50-100M)
+- **2013:** Período de baixa performance (~50M) 
+- **2014:** **Recuperação robusta** atingindo ~200M
+- **Tendência:** Crescimento sustentado pós-crise
 
 ---
 
