@@ -207,4 +207,9 @@ Esta implementação demonstra boas práticas de desenvolvimento DAX, priorizand
 
 ---
 
-**💡 Projeto desenvolvido como exercício prático do curso Power BI da Data Science Academy**
+## 👩‍💻 Sobre
+
+Projeto desenvolvido por Nathanny Soares durante o curso de Power BI da Data Science Academy.
+
+[🔗 LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/nathannysoares/)) • [💻 GitHub](https://github.com/nathannysoares)
+
